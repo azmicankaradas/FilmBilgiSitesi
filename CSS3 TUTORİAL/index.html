@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FİLM PROJESİ</title>
+    <style>
+        
+        .image1 {
+            margin-right: 10px;
+            float:right;
+            z-index: -6;
+       }
+       
+       
+        .film {
+            width: auto;
+            margin:  auto;
+            text-align: "center";
+            background-color:rgb(84, 125, 83);
+            color:azure;
+            margin-right: auto;
+            margin-left: auto;
+            
+       }
+       .film h1 {
+            text-align:center
+       }
+       p{
+            letter-spacing: 10px;
+        } 
+        p::first-letter {
+            font-size: 200%;
+            color: #212121;
+        }
+        a {
+            text-decoration: none;
+
+        }
+        a:hover{
+            background-color: rgb(84, 125, 83);
+            color: rgb(9, 9, 9);     
+            border-radius: 5px; /*ovalleşme için*/
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #34495e;
+            border-radius: 5px;
+        }
+
+        li {
+            display:inline-block;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        i a:hover{
+            background-color:#f39c12; 
+        }
+
+        ul li ul {
+            background-color:#2c3e50;
+            display:none;
+            position:absolute;
+            width:100px
+        }   
+
+        ul li:hover ul{
+            display:block;
+        }
+        li ul li {
+            display:block; 
+        }
+
+        img {
+            transition: all 0.4s;
+        }
+
+        img:hover {
+        -ms-transform: scale(1.3); /* IE 9 */
+        -webkit-transform: scale(1.3); /* Safari 3-8 */
+        transform: scale(1.3); 
+        }
+
+        #insta_icon {
+            float: right;
+            padding-right: 40px;
+            padding-top: 12px;
+            margin: -20px;      
+        }
+        #twitter_icon {
+            float: right;
+            padding-right: 40px;
+            padding-top: 12px;
+            margin: -20px;
+        }
+        #linkedin_icon{
+            float: right;
+            padding-right: 20px;
+            padding-top: 12px;
+            margin: -20px;
+        }
+        .OnPxYukarı{ /* burada pulp fiction filminin class isimini değiştirdim ve image1 class'ın da ki css leri image_pulpfiction' attım ve ekleme yaptım. catch me i. filmi de aynı şekilde */
+            margin-right: 10px;
+            float:right;
+            z-index: -6;
+            margin-top: -35px;
+        }
+        .kayan_yazi{
+            color: #34495e;
+            z-index: -1;
+        }
+        
+        .platformlar{
+            text-decoration: none;
+            color: #2c3e50;
+        }
+        .imdb{
+            background:#acd1c8;
+            width:max-content;
+        }
+        .baslik{
+            color: #fe2b3a;
+        }
+
+       </style>
+</head>
+<body bgcolor= #dcd1b5>
+    <div class="film"><h1>ÖNERİ 10 FİLM</h1></div>
+    
+    <ul>
+        </li>
+        <li id="linkedin_icon"><a href="https://www.linkedin.com/in/azmi-can-karadaş-b0a46b250/" target="_blank" > <img src="../linkedin.png" width="30px" ></a></li>
+        <li id="insta_icon"><a href="https://www.instagram.com/cannkrds/" target="_blank" > <img src="../insta_icon.png" width="30px" ></a></li>
+        <li id="twitter_icon"><a href="https://twitter.com/cannkrds" target="_blank" ><img src="../twitter_icon.png" width="30px" ></a></li>
+
+        <li><a href="index.html">Ana sayfa</a></li>
+      
+      
+        <li><a href="#Ders">Aktörler</a>
+        <ul>
+      
+            <li><a href="oyuncu_leo.html" target="_blank">Leonardo DiCaprio</a></li>
+      
+            <li><a href="oyuncu_tomhanks.html" target="_blank">Tom Hanks</a></li> 
+      
+            <li><a href="oyuncu_jimcarrey.html" target="_blank">Jim Carrey</a></li>  
+            
+            <li><a href="oyuncu_alpacino.html" target="_blank">Al Pacino</a></li>
+
+            <li><a href="oyuncu_christbale.html" target="_blank">Christian Bale</a></li>
+        </ul>
+        </li>
+      
+        <li><a href="#aktrisler">Aktrisler</a>
+        <ul>
+            <li><a href="oyuncu_margotrobbie.html" target="_blank">Margot Robbie</a></li>
+
+            <li><a href="oyuncu_amyadams.html" target="_blank">Amy Adams</a></li>
+
+            <li><a href="oyuncu_juliaroberts.html" target="_blank">Julia Roberts</a></li>
+
+            <li><a href="oyuncu_natalieportman.html" target="_blank">Natalie Portman</a></li>
+
+            <li><a href="oyuncu_nicolekidman.html" target="_blank">Nicole Kidman</a></li>
+        </ul>
+        </li>
+        <li><a href="#Dijital Platformlar">Dijital Platformlar</a>
+        <ul>
+            <li><a href="https://www.netflix.com/tr/" target="_blank">Netflix</a></li>
+            <li><a href="https://www.primevideo.com" target="_blank">Prime Video</a></li>
+            <li><a href="https://www.blutv.com" target="_blank">Blu Tv</a></li>
+            <li><a href="https://www.disney.com.tr" target="_blank">Disney +</a></li>
+            <li><a href="https://www.exxen.com" target="_blank">Exxen</a></li>
+        </ul>
+        </li>
+    </ul>
+
+    <!-- <h2 class="kayan_yazi" align="center"><marquee direction="left"> " Ben istiyorum ki; film, siz sinema salonunu terk ettikten sonra başlasın." </marquee></h2> -->
+    
+
+    <h1 class="baslik">The Wolf Of Wall Street</h1>
+    <img src="../thewolfofwallstreet.jpg" width="21%" height="21%" class="OnPxYukarı">
+    <p>
+        <h2>
+        Para Avcısı, gerçek bir yaşam öyküsünü konu ediyor. Jordan Belfort 24 yaşında genç ve hırslı bir adamdır. Para kazanma arzusuyla Wall Street borsasında önce komisyoncu ve ardından Stratton Oakmont adında bir yatırımcı firmasında zengin olmak için her şeyi yapmaya hazır bir CEO olur. 90'ların en hızlı günleridir ve New York işlem salonunda her şey olabilmektedir. Önemsiz tahvillerle birçok yatırımcıyı aldatarak, Belfort kısa zamanda bir para makinasına ve aynı zamanda bir harcama makinasına dönüşür. Bir günde hesapları milyon dolarlarla doldururken o gece hepsini aynı hızda harcayabilir. Profesyonel hayatının yanı sıra uyuşturucu, fahişeler, son derece pahalı lüks fantezilerle dolu kirli bir oyunun içindedir. Bu karakterin hayatındaki her şey abartılı bir şekilde devam ederken, çöküş ise çok uzakta değildir...Yönetmenliğini Martin Scorcese'nin üstlendiği film Amerikan borsasında komisyoncu olan Jordan Belfort'un biyografisinin bir uyarlaması. Filmin başrolünde Leonardo DiCaprio yer alırken kadroda Jonah Hill, Kyle Chandler ve Jean Dujardin kendisine eşlik ediyor.
+    <br><h2 class="imdb">imdb:8.2</h2>
+        </h2>
+    </p><br><br> 
+    <h2><a href="https://www.youtube.com/watch?v=iszwuX1AK6A"  target="_blank" title="The Wolf Of Wall Street Trailer">The Wolf Of Wall Street Filminin Fragmanını İzlemek İçin Tıklayınız</a></h2>
+
+    <h1 class="baslik">Pulp Fiction</h1>
+    <img src="../Pulp_Fiction_(film,_1994).jpg" width="21%" height="21%" class="OnPxYukarı">
+    <p><h2>
+        Ringo (Tim Roth) ve Yolanda (Amanda Plummer) birbirlerine deliler gibi aşık bir soyguncu çifttir ve işlerine biraz heyecan katmak için farklı bir plan yaparlar. Jules (Samuel L. Jackson) ve Vincent (John Travolta) iki profesyonel tetikçidir ve patronları Marsellus Wallace'ı (Ving Rhames) dolandırmaya çalışan birkaç sahtekar genci "temizlemeye" giderler. Patron Marsellus ise boksör Butch ile (Bruce Willis) bir şike anlaşması yapar. Fakat cesur ve gururlu Butch final maçında yenilmeyi kendine yediremez ve anlaşmayı bozup kaçmayı planlar. Ayrıca Vincent patronunun karısı Mia ile (Uma Thurman) patronunun ricası üzerine bir gece vakit geçirecektir. Tek yapması gereken Marsellus Florida'dayken Mia'yı dışarı çıkarıp eğlendirmektir. Ancak kimsenin işleri yolunda gitmez ve ummadıkları şeylerle yüzleşmek zorunda kalırlar.
+    <h2 class="imdb">imdb:8.9</h2>
+    </h2>
+    </p><br><br><br><br>    
+    <h2><a href="https://www.youtube.com/watch?v=s7EdQ4FqbhY"  target="_blank" title="Pulp Fiction Trailer">Pulp Fiction Filminin Fragmanını İzlemek İçin Tıklayınız</a>
+    <br><br><br>
+    <h1 class="baslik">The Prestige</h1>
+    <img src="../prestij.jpg" width="21%" height="21%" class="OnPxYukarı">
+    <p><h2>
+        Prestij, birbirini alt etmeye çalışan iki sihirbazın hikayesini anlatıyor. 19.yy sonlarında Londra’da Robert Angier, sevgili eşi Julia McCullough ve Alfred Borden hem arkadaştırlar hem de bir sihirbazın asistanlarıdırlar. Bir gösteri esnasında Julia ölünce Robert, onun ölümünden Alfred’i suçlar ve birbirlerine düşman olurlar. Zaman içinde ikisi de hem ünlü olurlar hem de rakip sihirbazlara dönüşerek birbirlerinin sahne üstünde performansını sabote etmeye kalkışırlar. Alfred başarılı bir hile yapınca Robert, rakibinin sırrını çözmek konusunu takıntı halinde getirir ve trajik olaylar birbirini kovalar.
+    <h2 class="imdb">imdb:8.5</h2>
+    </h2>
+    </p><br><br> <br>   
+    <h2><a href="https://www.youtube.com/watch?v=RLtaA9fFNXU"  target="_blank" title="The Prestige Trailer">The Prestige Filminin Fragmanını İzlemek İçin Tıklayınız</a></h2>
+    <br><br><br>
+    <h1 class="baslik">Blood Diamond </h1>  
+    <img src="../blood_diamond.jpg" width="21%" height="21%" class="image1">
+    <p><h2>
+        Film, 1999 yılında, on yıllık bir iç savaşın harap ettiği bir Batı Afrika ülkesi olan Sierra Leone'de geçiyor. Devrimci Birleşik Cephe gibi isyancı gruplar sıklıkla kırsal kesimde terör estirmekte, Mende yerlilerinin gözünü korkutmakta ve giderek artan başarılı savaş çabalarını finanse eden elmasları hasat etmek için birçok kişiyi köleleştirmektedir. Bu köle işçilerden biri de balıkçı Solomon Vandy'dir (Djimon Hounsou). Köyü Devrimci Birleşik Cephe'ye mensup isyancılar tarafından basılan kendi hâlinde balıkçı Solomon Vandy ailesini kurtarabilmeyi başarmıştır ama kendisi isyancılara esir düşmüştür. İsyancıların sahip olduğu bir elmas madeninde çalıştırılırken, normalde rastlananlardan çok daha büyük bir elmasla karşılaşır. Bir şekilde elması kendisine saklamak için hamle yaptığında, yakalanır fakat tam da o anda ordu, isyancı güçlere saldırı düzenler. Karmaşa içinde elması bir delik açıp sakladıktan sonra, ordu tarafından yakalanır. Madende yakalanan diğer kişilerle birlikte başkent Freetown'da götürüldüğü hapishanede isyancı güçlerin lideri açık bir şekilde onu tehdit eder. Bu konuşmalar sırasında yine tutuklu bulunan Rodezya (Zimbabve) kökenli bir paralı asker, Danny Archer (Leonardo DiCaprio), elmasın varlığından haberdar olur ve Solomon’u hapisten çıkararak elmasın peşine düşmeyi planlar. İsyancıların bu sırada ayaklanıp Freetown'ı ele geçirmesiyle birlikte ortaya çıkan karmaşa ortamında ikiliye Danny'nin barda tanıştığı ve savaşları finanse etmekte kullanılan elmaslar hakkında bir araştırma yapan Maddy (Jennifer Connelly) isimli Amerikalı kadın gazeteci yardımcı olur.
+    <h2 class="imdb">imdb:8.0</h2>
+    </h2>
+    </p>    
+    <h2><a href="https://www.youtube.com/watch?v=yknIZsvQjG4"  target="_blank" title="Blood Diamond Trailer">Blood Diamond Filminin Fragmanını İzlemek İçin Tıklayınız</a></h2>
+    
+    <h1 class="baslik">Truman Show</h1>
+    <img src="../trumanshow.jpg" width="21%" height="21%" class="OnPxYukarı">
+    <p><h2>
+        Truman Show sinema tarihinin en yaratıcı senaryolarından birine sahip. Dünyanın en güzel adalarından birinde yaşayan halk imrenilecek derecede ütopik bir hayat sürmektedir. Bu adada yaşayan insanlar her güne mutlu uyanıp herhangi bir sorunla karşılaşmadan günü sonlandırıyorlardır. Başkarakterimiz Truman da bu şanslı insanlardan biridir. Güzel bir eşe ve mutlu bir hayata sahip olan Truman, bir gün öldüğünü zannettiği babasını bir gün caddede gördüğü ana kadar hayatı olduğu gibi yaşar. Babasını gördüğüne emindir ancak adam bir anda ortalıktan kaybolmuştur. İlerleyen günlerde çeşitli gizemli anlar yaşayan Truman bir şeylerin yolunda gitmediğini fark edecek, sahip olduğu hayatın gerçek olup olmadığını anlamaya çalışacaktır.
+        Televizyon sektörü üzerine yapılan en esaslı eleştirilerden biri olan Truman Show sinema tarihinin en yaratıcı senaryolarından birine sahip. Aynı zamanda başrolündeki Jim Carrey'nin olağanüstü performansını da es geçmemek gerekiyor.
+    <h2 class="imdb">imdb:8.2</h2>
+    </h2>
+    </p><br><br><br>       
+    <h2><a href="https://www.youtube.com/watch?v=dlnmQbPGuls"  target="_blank" title="Truman Show Trailer">Truman Show Filminin Fragmanını İzlemek İçin Tıklayınız</a></h2>
+    
+    <h1 class="baslik">Fight Club</h1>
+    <img src="../fightclubfilm.jpg" width="21%" height="21%" class="OnPxYukarı">
+    <p><h2>
+        Dövüş Kulübünün birinci kuralı: Asla Dövüş Kulübü hakkında konuşma... Dövüş Kulübünün ikinci kuralı: Asla ve asla dövüş kulübü hakkında konuşma... Jack, hayatın sıradanlığına kapılmış bir sigorta memurudur. Uzun bir süredir 'insomnia' yani uykusuzluk hastalığından şikayetçidir. Kendi psikolojik sıkıntılarından kurtulabilmek adına grup terapilerine katılmaktadır. Terapiler esnasında Marla adında bir kızla tanışır. Bir süre sonra da hayatını değiştirecek olan Tyler Durden ile... Durden, Jack'in ulaşmak istediği tüm hedeflere ulaşmış olan bir adamdır ve Jack'i asla hakkında konuşulmaması gereken bir organizasyon olan 'Dövüş Kulübü' ile tanıştıracaktır. David Fincher'ın kısa sürede kült mertebesine erişen filminin popülerliği dillere destan. Filmin başrollerinde de Brad Pitt, Edward Norton ve Helena Bonham Carter gibi ünlü simaları görmek mümkün...
+    <h2 class="imdb">imdb:8.8</h2>
+    </h2>
+    </p><br><br><br>    
+    <h2><a href="https://www.youtube.com/watch?v=qtRKdVHc-cE"  target="_blank" title="Fight Club Trailer">Fight Club Filminin Fragmanını İzlemek İçin Tıklayınız</a></h2>
+    <br><br><br>
+    <h1 class="baslik">Scarface</h1>
+    <img src="../scarfacefilm.jpg" width="21%" height="21%" class="OnPxYukarı">
+    <p><h2>
+        Yaralı Yüz'de, Fidel Castro, Küba’da istenmeyen rejim muhaliflerine Amerika’ya göç etme hakkı tanır. Küba’ya göç edecek olan binlerce insanın içerisinde azılı suçlular ve akıl hastaları da vardır. Bu azılı suçluların en bilinenlerinden Tony Montana da yakın arkadaşı Manny Ribera ile Miami’ye göç eder. Montana kendisini ülkenin uyuşturucu babalarından biri olan Frank Lopez’in kanatlarının altında bulur. Montana’nın ise geldiği yerlerden daha yükseklere ulaşmak yönünde oldukça iddialı ve cesur hedefleri vardır.1932 tarihli kült filmin Brian De Palma tarafından yeniden çevrilmiş hali olan Scarface’in senaryosunu Oscar’lı yönetmen ve senarist Oliver Stone yazdı. Tony Montana’yı ise Al Pacino canlandırıyor.
+    <h2 class="imdb">imdb:8.3</h2>
+    </h2>
+    </p><br><br><br><br><br>        
+    <h2><a href="https://www.youtube.com/watch?v=7pQQHnqBa2E"  target="_blank" title="Scarface Trailer">Scarface Filminin Fragmanını İzlemek İçin Tıklayınız</a></h2>         
+    <br><br><br>
+    <h1 class="baslik">Catch Me if You Can</h1>
+    <img src="../catchmeifyoucan.jpg" width="21%" height="21%" class="OnPxYukarı">
+    <p><h2>
+        Sıkıysa Yakala, bir ajan ile bir suçlunun arasındaki kedi-fare oyununu konu ediyor. FBI ajanları hiç şüphe yok ki kendilerine çok fazla güvenmektedirler; ancak bu kez karşılarındaki, onlar için bile pek de kolay bir lokma olmayacaktır. Henüz yirmili yaşlarında, çocuk yaşta bir adam onlarca ülke gezerek, bazen pilot, bazen doktor, bazen savcı mesleklerine bürünerek FBI'ı peşinden koşturmaktadır. Bu ya bir kedi-fare oyunudur ya da sadece farenin oyunudur.
+        Amerikan sinemasının en büyük ustalarından Steven Spilerberg'in yönettiği filmin başrollerinde Leonardo Di Caprio ve Tom Hanks var.
+    <h2 class="imdb">imdb:8.1</h2>
+    </h2>
+    </p><br><br><br><br><br>    
+    <h2><a href="https://www.youtube.com/watch?v=s-7pyIxz8Qg"  target="_blank" title="Catch Me If You Can Trailer">Catch Me If You Can Filminin Fragmanını İzlemek İçin Tıklayınız</a></h2> <br><br>
+    <br>
+    <h1 class="baslik">Django Unchained</h1>
+    <img src="../django.jpg" width="21%" height="21%" class="OnPxYukarı">
+    <p><h2>
+        Zincirsiz, Köle Django’nun Alman asıllı ödül avcısı Dr. King Schultz ile yolunun kesişmesiyle başlıyor. Django, eski efendisini ölü ya da diri ele geçirmek isteyen Schultz ile anlaşmaya varır ve özgürlüğü karşısında Brittle kardeşleri kendisine getirme sözü verir. Görev başarıyla tamamlanır ama ikilinin yolları ayrılmaz Schultz ve Django beraber Güney’in en çok aranan suçlularının peşine düşerler… ‘Avlanma’ hünerini her geçen gün geliştiren Django’nun artık tek bir hedefi vardır: köle ticareti yüzünden kaybettiği eşi Broomhilda’yı bulmak ve onu kurtarmak... Bu hedef onları kötü şöhretli “Candyland” çiftliğine ve çiftliğin sahibi olan Calvin Candie’ye götürecektir…
+        Sinemanın dahi çocuğu, Oscarlı Quentin Tarantino'nun uzun süre üzerinde çalıştığı Spagetti Western türündeki projenin başrollerinde Jamie Foxx, Christoph Waltz yer alırken, Kerry Washington, Leonardo DiCaprio ve Samuel Jackson gibi yıldızlardan oluşan oyuncu kadrosu göz dolduruyor.
+    <h2 class="imdb">imdb:8.4</h2>
+    </h2>
+    </p><br><br><br>    
+    <h2><a href="https://www.youtube.com/watch?v=_iH0UBYDI4g"  target="_blank" title="Django Unchained Trailer">Django Unchained Filminin Fragmanını İzlemek İçin Tıklayınız</a></h2>
+
+    <h1 class="baslik">Memento</h1>
+    <img src="../memento.jpg" width="21%" height="21%" class="OnPxYukarı">
+    <p><h2>
+        Akıl Defteri, kısa süreli hafıza kaybı olan bir adamın karısını öldürenleri bulma çabasını konu ediyor. Leonard Shelby, ucuz otel odalarında konaklayan ve sadece nakit para kullanan biridir. Şık giysiler giyip, Jaguar marka araba kullanan Leonard, dışarıdan işadamı gibi görünmektedir. Fakat aslında hayatını karısına tecavüz edip öldüren kişiyi bulmak için adayan biridir.
+        Ne yazık ki Leonard’ın bu yolda ciddi bir engeli vardır, yaşadığı, çok ender rastlanan ve tedavi edilemeyen bir tür hafıza kaybı. Her ne kadar hayatının 'kaza'’dan önceki dönemlerini hatırlayabiliyorsa da, bazen 15 dakika öncesinde nereye gittiğini ve nerede olduğunu bile unutabilmektedir.
+    <h2 class="imdb">imdb:8.4</h2>
+    </h2>
+    </p>    
+    <h2><a href="https://www.youtube.com/watch?v=4CV41hoyS8A"  target="_blank" title="Memento Trailer">Memento Filminin Fragmanını İzlemek İçin Tıklayınız</a></h2>
+
+    
+    <br><br><br><br><br><br><br><br><br><br><br>
+</body>
+<footer color="black" align="center"><h2>Designed By Azmi Can KARADAŞ</h2>
+</footer>
+</html>
