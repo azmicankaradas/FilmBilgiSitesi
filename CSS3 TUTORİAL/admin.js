@@ -1,0 +1,1 @@
+var filmEkle = document.getElementById("filmekle");
